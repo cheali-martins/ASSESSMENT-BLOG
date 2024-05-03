@@ -1,0 +1,177 @@
+html {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.logo-style {
+    width: auto;
+    height: auto;
+}
+
+.navList {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-container {
+    /* border-radius: 40px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 999;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    position: sticky;
+    width: 1000px;
+    top: 0px;
+    background-color: #fff;
+}
+
+.bodySection {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: left;
+}
+
+.banner {
+    width: 1000px;
+    margin-top: 25px;
+
+}
+
+.secBanner {
+    width: 358px;
+    height: 170px;
+    top: 320px;
+    left: 64px;
+    border-radius: 12px;
+    border: 1px rgb(234, 233, 236);
+    padding: 40px;
+    position: absolute;
+    left: 16px;
+    background-color: white;
+    margin-left: 30px;
+    box-shadow: 0px 5px 10px #181A2A1F;
+}
+
+.tech {
+    align-items: center;
+    background-color: #4B6BFB;
+    color: white;
+    font-weight: 500;
+    width: 95px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.tech p {
+    margin: 2px;
+    padding: 4px;
+}
+
+.secBanner>h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #181A2A;
+}
+
+.shortInfo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.shortInfo>img {
+    width: 36px;
+    height: 36px;
+}
+
+.p1 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #97989F;
+}
+
+.advert {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.advertText {
+    background-color: #E8E8EA;
+    width: 70%;
+    border-radius: 15px;
+    color: #696A75;
+    line-height: 5px;
+}
+
+.p2 {
+    font-size: 14px;
+}
+
+.p3 {
+    font-size: 20px;
+}
+
+.p4 {
+    font-size: 18px;
+}
+
+.blogContainer h4 {
+    margin-top: 50px;
+    font-size: 24px;
+}
+
+.column1 {
+    width: 1000px;
+    font-size: 21px;
+}
+
+.column1>img {
+    width: 300px;
+}
+
+.techBlogbody {
+    background-color: #4B6BFB0D;
+    width: 90px;
+    height: 25px;
+    border-radius: 5px;
+    color: #4B6BFB;
+    font-weight: 500px;
+}
+
+.techBlogbody p {
+    font-size: 14px;
+    padding: 5px;
+}
+
+.shortBlogInfo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.p5 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #97989F;
+}
+
+.parent-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
