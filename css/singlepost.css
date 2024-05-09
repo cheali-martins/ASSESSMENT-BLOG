@@ -54,11 +54,13 @@ html {
 
 /* This is the body section */
 .bodySection {
-    width: 1000px;
-    margin-left: 700px;
+    width: 650px;
+    margin-left: auto;
     margin-right: auto;
     position: relative;
     text-align: left;
+    justify-content: center;
+    text-align: justify;
 }
 
 .bodyHeading {
@@ -159,33 +161,107 @@ html {
 }
 
 /* this is the second advert */
-.advert2 {
+.advert {
     display: flex;
-    justify-content: center;
     text-align: center;
-    align-items: center;
-    margin-top: 40px;
-    margin-left: 180px;
+    justify-content: center;
+    background-color: #E8E8EA;
+    width: 750px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
 }
 
 .advertText {
-    background-color: #E8E8EA;
-    width: 810px;
-    border-radius: 15px;
-    color: #696A75;
     line-height: 5px;
 }
 
-.ad2 {
+.ad1 {
     font-size: 14px;
+    font-weight: 400px;
+    color: #696A75;
+}
+
+.ad2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #696A75;
 }
 
 .ad3 {
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 400px;
+    color: #696A75;
 }
 
-.ad4 {
-    font-size: 18px;
+.p5 h4 {
+    font-size: 25px;
+    font-weight: 600px;
+    line-height: 28px;
+}
+
+.p5 {
+    font-size: 20px;
+    color: #3B3C4A;
+    font-weight: 400px;
+    width: 800px;
+    line-height: 32px;
+}
+
+.pr6 h4 {
+    font-size: 25px;
+    font-weight: 600px;
+    line-height: 28px;
+}
+
+.pr6 {
+    font-size: 20px;
+    color: #3B3C4A;
+    font-weight: 400px;
+    width: 800px;
+    line-height: 32px;
+}
+
+.pr7 h4 {
+    font-size: 25px;
+    font-weight: 600px;
+    line-height: 28px;
+}
+
+.pr7 {
+    font-size: 20px;
+    color: #3B3C4A;
+    font-weight: 400px;
+    width: 800px;
+    line-height: 32px;
+}
+
+.pr8 h4 {
+    font-size: 25px;
+    font-weight: 600px;
+    line-height: 28px;
+}
+
+.pr8 {
+    font-size: 20px;
+    color: #3B3C4A;
+    font-weight: 400px;
+    width: 800px;
+    line-height: 32px;
+}
+
+.pr9 h4 {
+    font-size: 25px;
+    font-weight: 600px;
+    line-height: 28px;
+}
+
+.pr9 {
+    font-size: 20px;
+    color: #3B3C4A;
+    font-weight: 400px;
+    width: 800px;
+    line-height: 32px;
 }
 
 

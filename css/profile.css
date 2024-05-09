@@ -46,14 +46,12 @@ html {
 
 .header-container input {
     border: none;
-    width: 166px;
-    padding: 8px 8px 8px 16px;
-    gap: 12px;
-    border-radius: 5px 0px 0px 0px;
-    background-color: #F4F4F5
+    width: 167px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #F4F4F5;
 }
 
-/* this is the body section */
 .bodySection {
     width: 1000px;
     margin-left: auto;
@@ -62,93 +60,49 @@ html {
     text-align: left;
 }
 
-.banner {
-    width: 1000px;
-    margin-top: 25px;
 
+.bannerWriteUp {
+    background-color: #F6F6F7;
+    padding: 48px;
+    margin-top: 40px;
 }
 
-.secBanner {
-    width: 358px;
-    height: 170px;
-    top: 320px;
-    left: 64px;
-    border-radius: 12px;
-    border: 1px rgb(234, 233, 236);
-    padding: 40px;
-    position: absolute;
-    left: 16px;
-    background-color: white;
-    margin-left: 30px;
-    box-shadow: 0px 5px 10px #181A2A1F;
+.bannerInfo {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.tech {
-    align-items: center;
-    background-color: #4B6BFB;
-    color: white;
-    font-weight: 500;
-    width: 95px;
-    height: 25px;
-    border-radius: 5px;
-}
-
-.tech p {
-    margin: 2px;
-    padding: 4px;
-}
-
-.secBanner>h1 {
-    font-size: 24px;
-    font-weight: 600;
+.bannerInfo p {
+    font-size: 20px;
+    font-weight: 400px;
     color: #181A2A;
 }
 
-.shortInfo {
+.bannerParagraph {
     display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.shortInfo>img {
-    width: 36px;
-    height: 36px;
-}
-
-.p1 {
-    font-size: 16px;
-    font-weight: 500;
-    color: #97989F;
-}
-
-/* this is the first advert */
-.advert {
-    display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     text-align: center;
-    align-items: center;
-    margin-top: 100px;
+    width: 590px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #181A2A;
+    line-height: 25px;
 }
 
-.advertText {
-    background-color: #E8E8EA;
-    width: 70%;
-    border-radius: 15px;
-    color: #696A75;
-    line-height: 5px;
+.img1 {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
-.p2 {
-    font-size: 14px;
-}
-
-.p3 {
-    font-size: 20px;
-}
-
-.p4 {
-    font-size: 18px;
-}
 
 /* this is the lastest post section */
 .blogContainer h4 {
@@ -189,7 +143,7 @@ html {
 .shortBlogInfo {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 7px;
 }
 
 .p5 {
@@ -206,40 +160,8 @@ html {
     /* flex-wrap: wrap; */
 }
 
-/* this is the view post section */
-.viewPost {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    /* gap: 12px; */
 
-}
 
-.viewPost p {
-    color: #696A75;
-    font-size: 16px;
-    border-radius: 10px;
-    border: 1px solid #696A754D;
-    padding: 12px;
-}
-
-/* this is the second advert */
-.advert2 {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    margin-top: 50px;
-}
-
-.advertText {
-    background-color: #E8E8EA;
-    width: 70%;
-    border-radius: 15px;
-    color: #696A75;
-    line-height: 5px;
-}
 
 /* THIS IS THE FOOTER SECTION */
 

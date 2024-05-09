@@ -4,16 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
-    <link rel="stylesheet" href="./css/blog.css">
+    <title>Profle</title>
+
+    <link rel="stylesheet" href="./css/profile.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+
 </head>
 
 <body>
+
     <!-- this is the header section -->
     <header class="header-container">
         <!-- logo -->
@@ -24,43 +27,32 @@
         <!-- this is the navigation section -->
         <nav class="navBar">
             <li class="navList"> <a href="index.html">Home</a></li>
-            <li class="navList" id="current"> <a href="blog.html">Blog</a></li>
+            <li class="navList"> <a href="blog.html">Blog</a></li>
             <li class="navList"><a href="singlePost.html">Single Post</a></li>
-            <li class="navList"><a href="profile.html">Profile</a></li>
+            <li class="navList" id="current"><a href="profile.html">Profile</a></li>
             <li class="navList"><a href="contact.html">Contact</a></li>
         </nav>
         <input type="Search" placeholder="Search">
     </header>
 
-    <!-- this is the main body -->
+    <!-- this is the body section -->
     <div class="bodySection">
-        <!-- this is the banner section -->
-        <div>
-            <img src="./Images/banner.svg" alt="banner" class="banner">
+
+        <div class="bannerWriteUp">
+            <div class="bannerInfo">
+                <img src="./Images/croppic.svg" alt="Jon Doe">
+                <p>Jonathan Doe</p>
+                <!-- <p>Collaborator & Editor</p> -->
+            </div>
+
+            <div class="bannerParagraph">
+                <p>Meet Jonathan Doe, a passionate writer and blogger with a love for technology and travel. Jonathan
+                    holds a degree in Computer Science and has spent years working in the tech industry. gaining a deep
+                    understanding of the impact technologyhas on our lives.</p>
+            </div>
+            <img src="./Images/Social Media.svg" alt="Socials" class="img1">
         </div>
 
-        <div class="secBanner">
-            <div class="tech">
-                <p>Technology</p>
-            </div>
-            <h1>The Impact of Technology on the Workspace: How Technology is Changing</h1>
-            <div class="shortInfo">
-                <img src="./Images/emptyimg.svg" alt="pic">
-                <p class="p1">Tracey Wilson</p>
-                <p class="p1">August 20, 2022</p>
-            </div>
-        </div>
-
-        <!-- this is the advert -->
-        <div class="advert">
-            <div class="advertText">
-                <p class="p2">Advertisememt</p>
-                <p class="p3"><strong>You can place ads</strong></p>
-                <p class="p4">750x100</p>
-            </div>
-        </div>
-
-        <!-- this is the latest post section 1 -->
         <div class="blogContainer">
             <h4>Latest Post</h4>
             <div class="parent-container">
@@ -205,24 +197,11 @@
                     </div>
                 </div>
             </div>
-
-            <!-- This is the View Post Button -->
-            <div class="viewPost">
-                <div>
-                    <p>View All Post</p>
-                </div>
-            </div>
-
-            <!-- this is the second advert -->
-            <div class="advert2">
-                <div class="advertText">
-                    <p class="p2">Advertisememt</p>
-                    <p class="p3"><strong>You can place ads</strong></p>
-                    <p class="p4">750x100</p>
-                </div>
-            </div>
         </div>
     </div>
+
+
+
 
 
     <!-- this is the footer section -->
